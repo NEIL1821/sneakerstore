@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import { Modal, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import axios from 'axios';
-import { addSneakertoUser, uploadSneaker } from '../../lib/api';
+import { addSneakertoUser } from '../../lib/api';
 
 const sizes = [
   3.5 , 
@@ -59,7 +58,7 @@ function SneakerModal (props) {
 
     // Below is a deconstructed object was just an idea, you can add more
     // fields you would like to use in the modal
-    const {year, title, shoe, retailPrice, media, colorway, brand, id } = props.sneaker;
+    const {year, title, media, id } = props.sneaker;
 
     const handleSubmit = async () => {
       for (let key in props.sneaker) {
