@@ -1,0 +1,74 @@
+// Footer.jsx
+.footer {
+  padding: 0 2rem;
+  background: #37451e;
+  &__top {
+    padding: 1.5rem 0 2.5rem 0;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__logo {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-weight: 800;
+    color: #bdbdbd;
+    letter-spacing: 1px;
+  }
+  &__icons {
+    font-size: 2.5rem;
+    svg {
+      margin: 0 1rem;
+      color: #bdbdbd;
+      transition: all 0.3s;
+      &:hover {
+        color: red;
+      }
+    }
+  }
+  &__subheading {
+    color: rgb(164, 164, 164);
+    font-size: 2rem;
+  }
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__link {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0 1rem;
+    font-weight: 500;
+    border-right: 1px solid white;
+    transition: all 0.3s;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: rgb(18, 18, 18);
+    &:first-child {
+      padding: 0 1rem 0 0;
+    }
+    &:last-child {
+      border: none;
+    }
+    &:hover {
+      color: darkgrey;
+    }
+  }
+  &__copy {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.25rem;
+    span {
+      color: #fff;
+    }
+  }
+  &__closer {
+    color: rgb(164, 164, 164);
+    padding-bottom: 1rem;
+    text-align: right;
+    width: 30rem;
+    font-size: 1.25rem;
+  }
+}

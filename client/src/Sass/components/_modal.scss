@@ -1,0 +1,125 @@
+.modal {
+  position: absolute;
+  top: 30%;
+  left: 27.5%;
+  right: auto;
+  bottom: auto;
+  margin: auto;
+  height: 37.25rem;
+  max-width: 75rem;
+  font-size: 1.5rem;
+  background-color: #ffffffe9;
+  border-radius: 10px;
+  box-shadow: var(--shadow-smooth);
+  outline: none;
+  font-family: 'Comfortaa', sans-serif;
+  display: grid;
+  border-radius: 15px;
+  grid-template-columns: 1.75fr 1fr;
+  grid-template-areas: 'left right';
+  &__heading {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    display: inline-block;
+    text-align: center;
+    &--success {
+      color: #008000;
+    }
+  }
+  &__subheading {
+    text-align: center;
+    line-height: 3rem;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  &__info {
+    font-size: 1.5rem;
+    li {
+      margin: 0.5rem 0;
+    }
+  }
+  &__form {
+    grid-area: left;
+    background: #fefefe;
+    border-radius: 15px 0 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &--success {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+  }
+  &__right {
+    grid-area: right;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    align-items: center;
+    padding: 3rem;
+    border-radius: 0 15px 15px 0;
+    background: linear-gradient(#5af2fd, #50b1fe);
+  }
+  &__bottom-text {
+    font-size: 1.5rem;
+    justify-self: flex-end;
+  }
+  &__sign-up {
+    justify-self: flex-end;
+  }
+}
+
+.right {
+  &__heading {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    font-weight: 700;
+  }
+  &__text {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  &__list {
+    align-self: flex-start;
+    li {
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+// Inputs!
+.input-wrap {
+  width: 90%;
+  margin: 0 auto 1.5rem auto;
+  &__icon {
+    color: #7e307e;
+    // color: #194b74;
+    font-size: 2rem;
+    position: absolute;
+    margin: 1.25rem;
+  }
+  &__input {
+    font-family: 'Comfortaa';
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    padding: 1.25rem;
+    outline: none;
+    border: 3px solid #50b1fe;
+    width: 100%;
+    transition: all 0.3s;
+    &:focus {
+      box-shadow: var(--shadow-blue);
+    }
+    &--alt {
+      border: 3px solid palevioletred;
+      &:focus {
+        box-shadow: var(--shadow-violet);
+      }
+    }
+  }
+}

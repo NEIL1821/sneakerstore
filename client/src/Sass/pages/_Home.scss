@@ -1,0 +1,60 @@
+// Home.jsx
+.home {
+  background-color: #000;
+  width: 60rem;
+  padding: 3rem;
+  border-radius: 20px;
+  border: 4px solid cyan;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto 3rem auto;
+  box-shadow: var(--shadow-dreamy);
+  &--white {
+    background: linear-gradient(144deg, #50b1fe, #5af2fd);
+    border: 4px solid rgb(210, 64, 210);
+  }
+  &__logo {
+    width: 35rem;
+    height: 35rem;
+    &--small {
+      width: 42.5rem;
+      height: auto;
+      margin-bottom: 3rem;
+    }
+  }
+  &__link {
+    color: #fff;
+    justify-self: flex-end;
+  }
+  &__quote {
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+    width: 57rem;
+    font-size: 2.75rem;
+    margin: 0 auto;
+  }
+  // SignUp.jsx
+  &__heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    color: #8c4a9f;
+    font-weight: 900;
+    margin-bottom: 3rem;
+  }
+}
+
+.checkbox {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  &__input {
+    margin-right: 1rem;
+  }
+  a {
+    font-weight: 500;
+    color: blue;
+  }
+}

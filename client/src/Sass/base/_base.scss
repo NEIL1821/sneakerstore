@@ -1,0 +1,32 @@
+// BASE STYLING
+
+* {
+  box-sizing: inherit;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%; // 1 rem == 10px
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  width: min-content;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: rgb(2, 0, 36);
+  background: rgb(48, 48, 48);
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+}

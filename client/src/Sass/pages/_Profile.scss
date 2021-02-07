@@ -1,0 +1,139 @@
+// Profile.jsx
+.profile {
+  display: grid;
+  padding: 2rem;
+  height: 100vh;
+  grid-template-columns: 1fr 2.75fr;
+  grid-template-rows: 1fr 1.75fr;
+  grid-template-areas:
+    'left top'
+    'left bottom';
+  gap: 1rem;
+  @media screen and (max-width: $bp-large) {
+    gap: 0.25rem;
+    padding: 0;
+  }
+  // Grid definition
+  &__left {
+    padding: 1.5rem 0.75rem;
+    grid-area: left;
+    // background: rgb(255, 153, 117);
+    background: #b3b36e;
+    border-radius: 15px 0 0 15px;
+  }
+  &__top {
+    padding: 1rem 2rem;
+    grid-area: top;
+    background-color: rgb(214, 244, 255);
+    border-top-right-radius: 15px;
+  }
+  &__bottom {
+    padding: 1rem;
+    grid-area: bottom;
+    background-color: rgb(217, 211, 255);
+    border-bottom-right-radius: 15px;
+  }
+
+  // Top Section
+  &__heading {
+    text-transform: uppercase;
+    font-size: 5rem;
+    font-weight: 900;
+  }
+  &__name {
+    font-size: 3rem;
+    a {
+      color: #0000ee;
+      text-decoration: underline;
+      transition: color 0.3s;
+      &:hover {
+        color: #5131c7;
+      }
+    }
+  }
+  &__rating {
+    font-size: 2.25rem;
+  }
+  &__sales {
+    font-size: 2.5rem;
+    span {
+      color: green;
+      font-weight: 700;
+    }
+  }
+  &__logout {
+    padding: 0.5rem 0.75rem;
+    border-radius: 10px;
+    background-color: #ff5f5f;
+    text-transform: uppercase;
+    outline: none;
+    border: 2px solid rgb(159, 0, 0);
+    font-size: 1.5rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    &:hover {
+      transform: translateY(-3px);
+      box-shadow: var(--shadow-smooth);
+    }
+    &:active {
+      transform: translateY(2px);
+      box-shadow: var(--shadow-smooth-light);
+    }
+  }
+  &__active {
+    font-style: italic;
+    font-weight: 300;
+  }
+
+  // Left
+  &__subheading {
+    font-family: 'Montserrat';
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: 800;
+    letter-spacing: 1px;
+  }
+  &__img {
+    display: inherit;
+    border-radius: 50%;
+    width: 20rem;
+    margin: auto;
+    margin-bottom: 1.25rem;
+    box-shadow: var(--shadow-smooth-light);
+  }
+  // Bottom
+  &__navlink {
+    padding-bottom: 0.25rem;
+    text-transform: uppercase;
+    margin: 0 1.25rem;
+    font-size: 2.25rem;
+    font-weight: 700;
+    transition: color 0.3s;
+    &:hover {
+      color: #ff2626;
+    }
+    &--active {
+      color: #d30000;
+      border-bottom: 3px solid red;
+    }
+  }
+}
+// Profile Left - Review Section
+.review {
+  margin: 1rem 0 1.5rem 0;
+  &__author {
+    font-size: 2rem;
+  }
+  &__review {
+    margin-left: 1.25rem;
+    font-size: 1.5rem;
+  }
+  &__sign {
+    text-align: right;
+    font-style: italic;
+    font-size: 1.25rem;
+  }
+}

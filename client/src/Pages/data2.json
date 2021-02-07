@@ -1,0 +1,99 @@
+{
+  "shoes": [
+    {
+      "_id": 1,
+      "id": 1,
+      "brand": "Maruchan",
+      "year": 2019,
+      "color": "Yellowish",
+      "retailPrice": "323.99",
+      "title": "Literally Ramen Shoes",
+      "media": {
+        "thumbUrl": "https://imagevars.gulfnews.com/2019/12/22/-Ramen-shoes--become-instant-meme-hit_16f2d9119f4_large.jpg"
+      },
+      "views": 1243,
+      "sellerName": "Roi Livine",
+      "sellarRating": 4,
+      "releaseDate": "12/22/2020",
+      "updatedAt": "12/25/2021",
+      "description":
+        "Profile of the Nike Kobe 9 Elite Low A product of design innovation, Kobe Bryant's ninth signature basketball shoe with Nike features three of the brand's leading technologies: Lunarlon, Flywire, and Flyknit."
+    },
+    {
+      "_id": 2,
+      "id": 2,
+      "brand": "Adidas",
+      "year": 2019,
+      "color": "Yellow",
+      "retailPrice": "495.99",
+      "title": "Spongebob Squarepants 12's",
+      "media": {
+        "thumbUrl": "https://images.stockx.com/images/Nike-Kyrie-5-Spongebob-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1606323799"
+      },
+      "views": 109,
+      "sellerName": "Toni Collette",
+      "sellerRating": 4,
+      "releaseDate": "06/30/2019",
+      "updatedAt": "12/25/2021",
+      "description":
+        "Profile of the Nike Kobe 9 Elite Low A product of design innovation, Kobe Bryant's ninth signature basketball shoe with Nike features three of the brand's leading technologies: Lunarlon, Flywire, and Flyknit."
+    },
+    {
+      "_id": 3,
+      "id": 3,
+      "brand": "Adidas",
+      "year": 2019,
+      "color": "Blue",
+      "retailPrice": "299.99",
+      "title": "Jesus Sandles",
+      "media": {
+        "thumbUrl": "https://m.media-amazon.com/images/I/61Ir8cRT3sL._AC_UL1095_.jpg"
+      },
+      "views": 109,
+      "sellerName": "Jennifer Brenis",
+      "sellerRating": 4,
+      "releaseDate": "12/22/2020",
+      "updatedAt": "12/25/2021",
+      "description":
+        "Profile of the Nike Kobe 9 Elite Low A product of design innovation, Kobe Bryant's ninth signature basketball shoe with Nike features three of the brand's leading technologies: Lunarlon, Flywire, and Flyknit."
+    },
+    {
+      "_id": 4,
+      "id": 4,
+      "brand": "Adidas",
+      "year": 2019,
+      "color": "Blue",
+      "retailPrice": "1999.99",
+      "title": "Advenuture Time 9's",
+      "media": {
+        "thumbUrl": "https://images.coplusk.net/project_images/95232/image/P6220549_1308940177.jpg"
+      },
+      "views": 109,
+      "sellerName": "Jon Grossman",
+      "sellerRating": 4,
+      "releaseDate": "7/10/2018",
+      "updatedAt": "12/25/2021",
+      "description":
+        "Profile of the Nike Kobe 9 Elite Low A product of design innovation, Kobe Bryant's ninth signature basketball shoe with Nike features three of the brand's leading technologies: Lunarlon, Flywire, and Flyknit."
+    },
+    {
+      "_id": 5,
+      "id": 5,
+      "brand": "Vans",
+      "year": 2013,
+      "color": "Unknown",
+      "retailPrice": "49.99",
+      "title": "My old shoes",
+      "media": {
+        "thumbUrl": "https://st.depositphotos.com/1129633/2186/i/950/depositphotos_21860571-stock-photo-dirty-shoes.jpg"
+      },
+      "views": 109,
+      "sellerName": "Nehemiah",
+      "sellerRating": 4,
+      "releaseDate": "08/22/2010",
+      "updatedAt": "12/25/2021",
+      "description":
+        "Profile of the Nike Kobe 9 Elite Low A product of design innovation, Kobe Bryant's ninth signature basketball shoe with Nike features three of the brand's leading technologies: Lunarlon, Flywire, and Flyknit."
+    }
+  ]
+}

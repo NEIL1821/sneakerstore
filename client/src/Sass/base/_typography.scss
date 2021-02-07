@@ -1,0 +1,29 @@
+.heading {
+  &__primary {
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 500;
+  }
+  &__impact {
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 4rem;
+    color: #fff;
+    letter-spacing: 1px;
+    text-decoration: underline;
+    align-self: flex-start;
+    &--black {
+      color: #000;
+    }
+  }
+  &__impact-2 {
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 4rem;
+    letter-spacing: 1px;
+    text-decoration: underline;
+    align-self: flex-start;
+  }
+}

@@ -1,0 +1,18 @@
+@mixin top-nav {
+  padding: 1rem;
+  background-color: #ffffffdd;
+  overflow: hidden;
+  height: 5rem;
+  font-size: 1.5rem;
+  box-shadow: var(--shadow-card);
+}
+
+@mixin flex-icon {
+  display: flex;
+  align-items: center;
+}
+
+@mixin clamp {
+  width: calc(100% - 4rem);
+  margin: auto;
+}

@@ -1,0 +1,82 @@
+.shoe {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  gap: 2rem;
+  @include clamp;
+  @media only screen and (max-width: $bp-largest) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  @media only screen and (max-width: $bp-medium) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media only screen and (max-width: $bp-smallest) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  margin-bottom: 5rem;
+  &__content {
+    font-size: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    line-height: 2.4rem;
+    background-color: #fff;
+    border: 3px solid #a9a9a9;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    &:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-smooth);
+    }
+  }
+  &__img {
+    width: 20rem;
+    height: 15rem;
+    object-fit: contain;
+    align-self: center;
+  }
+  &__title {
+    font-size: 1.75rem;
+    font-weight: 600;
+    text-align: center;
+  }
+  &__price {
+    font-size: 1.5rem;
+    font-weight: 500;
+    & span {
+      color: green;
+      font-weight: 700;
+    }
+  }
+  &__sellar {
+    @include flex-icon;
+  }
+  &__date {
+    font-size: 1.25rem;
+    text-align: center;
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 1rem;
+  }
+  &__btn {
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    border: 2px solid red;
+    background-color: var(--impact-light-pink);
+    text-transform: uppercase;
+    font-weight: 600;
+    outline: none;
+    transition: all 0.3s;
+    &:hover {
+      cursor: pointer;
+      background-color: #ff6c8e;
+    }
+  }
+  &__icon {
+    font-size: 2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    &:hover {
+      color: red;
+    }
+  }
+}
