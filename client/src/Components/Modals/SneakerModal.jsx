@@ -40,6 +40,7 @@ function SneakerModal (props) {
     const [ size, setSize ] = useState('');
     const [ askingPrice , setAskingPrice ] = useState('');
 
+    // eslint-disable-next-line
     const [ newObject, setNewObject ] = useState({});
 
     // Below is the item coming from props.sneaker

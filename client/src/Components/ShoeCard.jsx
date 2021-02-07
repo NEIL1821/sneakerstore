@@ -4,10 +4,8 @@ import { AiFillStar } from 'react-icons/ai';
 import { FaRegHeart } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { savingSneakers } from '../lib/api';
-import { useAuth } from '../context/AuthContext';
 
 const ShoeCard = ({ userId, sneaker }) => {
-  const { auth } = useAuth();
   // Render star icons based on rating
   const star = () => <AiFillStar className="gold" />;
   const rating = (num) => [...Array(num)].map(star);

@@ -1,8 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import axios from 'axios';
-import { Row , Col, Spinner, Container} from 'react-bootstrap';
-import { Link } from 'react-router-dom';
-import { FaRegHeart } from 'react-icons/fa';
+import { Row , Col, Container} from 'react-bootstrap';
 import { useAuth } from '../context/AuthContext';
 import { getUserById } from '../lib/api';
 import SneakerModal from '../Components/Modals/SneakerModal';

@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const ProfileTop = () => {
   const [userData, setData] = useState({});
-  const [ ratings, setRatings] = useState(null);
+  // const [ ratings, setRatings] = useState(null);
 
   const star = () => <AiFillStar className="gold" />;
   const rating = (num) => [...Array(num)].map(star);

@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import Logo from '../img/logos/another-1.png';
-import Data from './data.json';
 import Data2 from './data2.json';
 import ShoeCard from '../Components/ShoeCard';
 import { getAllSneakers } from '../lib/api';

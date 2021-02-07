@@ -31,8 +31,8 @@ const ProfileLeft = () => {
   return (
     <section className="profile__left">
       <label className="label-center">
-        <img className="profile__img" src="https://i.stack.imgur.com/YaL3s.jpg" alt="img" />
-        {/* <img  className="profile__img" src={!file ? userData.profilePicture : fileUrl} alt="img" /> */}
+        {/* <img className="profile__img" src="https://i.stack.imgur.com/YaL3s.jpg" alt="img" /> */}
+        <img  className="profile__img" src={!file ? userData.profilePicture : fileUrl} alt="img" />
         <input
           type="file"
           name="photo"
