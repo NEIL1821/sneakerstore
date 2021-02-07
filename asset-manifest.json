@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/sneakerstore/static/css/main.96904bbf.chunk.css",
-    "main.js": "/sneakerstore/static/js/main.fd0d344a.chunk.js",
-    "main.js.map": "/sneakerstore/static/js/main.fd0d344a.chunk.js.map",
-    "runtime-main.js": "/sneakerstore/static/js/runtime-main.eaa49f35.js",
-    "runtime-main.js.map": "/sneakerstore/static/js/runtime-main.eaa49f35.js.map",
-    "static/css/2.2bbe33c5.chunk.css": "/sneakerstore/static/css/2.2bbe33c5.chunk.css",
-    "static/js/2.35c278b5.chunk.js": "/sneakerstore/static/js/2.35c278b5.chunk.js",
-    "static/js/2.35c278b5.chunk.js.map": "/sneakerstore/static/js/2.35c278b5.chunk.js.map",
-    "index.html": "/sneakerstore/index.html",
-    "static/css/2.2bbe33c5.chunk.css.map": "/sneakerstore/static/css/2.2bbe33c5.chunk.css.map",
-    "static/css/main.96904bbf.chunk.css.map": "/sneakerstore/static/css/main.96904bbf.chunk.css.map",
-    "static/js/2.35c278b5.chunk.js.LICENSE.txt": "/sneakerstore/static/js/2.35c278b5.chunk.js.LICENSE.txt",
-    "static/media/BLACK.84f82395.gif": "/sneakerstore/static/media/BLACK.84f82395.gif",
-    "static/media/another-1.26a31de8.png": "/sneakerstore/static/media/another-1.26a31de8.png"
+    "main.css": "./static/css/main.96904bbf.chunk.css",
+    "main.js": "./static/js/main.fd0d344a.chunk.js",
+    "main.js.map": "./static/js/main.fd0d344a.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.5c0dd0c9.js",
+    "runtime-main.js.map": "./static/js/runtime-main.5c0dd0c9.js.map",
+    "static/css/2.2bbe33c5.chunk.css": "./static/css/2.2bbe33c5.chunk.css",
+    "static/js/2.97fc5202.chunk.js": "./static/js/2.97fc5202.chunk.js",
+    "static/js/2.97fc5202.chunk.js.map": "./static/js/2.97fc5202.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/2.2bbe33c5.chunk.css.map": "./static/css/2.2bbe33c5.chunk.css.map",
+    "static/css/main.96904bbf.chunk.css.map": "./static/css/main.96904bbf.chunk.css.map",
+    "static/js/2.97fc5202.chunk.js.LICENSE.txt": "./static/js/2.97fc5202.chunk.js.LICENSE.txt",
+    "static/media/BLACK.84f82395.gif": "./static/media/BLACK.84f82395.gif",
+    "static/media/another-1.26a31de8.png": "./static/media/another-1.26a31de8.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.eaa49f35.js",
+    "static/js/runtime-main.5c0dd0c9.js",
     "static/css/2.2bbe33c5.chunk.css",
-    "static/js/2.35c278b5.chunk.js",
+    "static/js/2.97fc5202.chunk.js",
     "static/css/main.96904bbf.chunk.css",
     "static/js/main.fd0d344a.chunk.js"
   ]
