@@ -39,7 +39,7 @@ const SellPage = () => {
 
   const handleChange = (event) => {
     setSearchTerm(event.target.value)
-    console.log(searchTerm.split(' ')) //Idea if we want to search with spacing between words
+    // console.log(searchTerm.split(' ')) //Idea if we want to search with spacing between words
     if (searchTerm.length > 0 ) {
       let filter = sneakers.filter(
         (shoe) =>

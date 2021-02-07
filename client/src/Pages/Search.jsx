@@ -10,7 +10,6 @@ const Search = () => {
   // Get all data from Mongo
   useEffect(() => {
     getAllSneakers().then((res) => {
-      console.log('SNEAKERS: ', res);
       setSneakers(res);
     });
   }, []);
@@ -50,7 +49,7 @@ const Search = () => {
       <div className="heading__impact mb-3 clamp-1">Featured Products</div>
       <div className="shoe">
         {Data2.shoes.map((sneaker) => (
-          <ShoeCard sneaker={sneaker} />
+          <ShoeCard sneaker={sneaker}  key={sneaker._id}  />
         ))}
       </div>
     </>

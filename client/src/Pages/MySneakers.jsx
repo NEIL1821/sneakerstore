@@ -27,14 +27,14 @@ const MySneakers = () => {
     <div className="my-sneakers">
       <h1 className="heading__impact mb-3">Current Listings:</h1>
       <div className="shoe mb-4">
-        {userData.sellingSneakers ? userData.sellingSneakers.map((shoe) => (
-          <ShoeCard sneaker={shoe} />
+        {userData.sellingSneakers ? userData.sellingSneakers.map((shoe, index) => (
+          <ShoeCard sneaker={shoe} key={index} />
         )): <div>No Listings </div>}
       </div>
       <h2 className="heading__impact mb-3">Saved Sneakers:</h2>
       <div className="shoe mb-4">
-        {data.shoes.map((shoe) => (
-          <ShoeCard shoe={shoe} />
+        {data.shoes.map((shoe, index) => (
+          <ShoeCard shoe={shoe} indx={index} />
         ))}
       </div>
       <h2 className="heading__impact mb-3">Customer Reviews:</h2>

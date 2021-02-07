@@ -9,7 +9,7 @@ const SignInModal = ({ toggleModal, modalIsOpen }) => {
   const [signUpForm, setSignUpForm] = useState(false);
 
   const { auth } = useAuth();
-  console.log('Got here ' + JSON.stringify(auth));
+  
 
   // State will be
   // import SignUp , add on Click inside of SignIn , changing a state

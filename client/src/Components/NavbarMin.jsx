@@ -7,7 +7,7 @@ const NavbarMin = () => {
   const { auth } = useAuth();
   return (
     <nav className="nav">
-      {console.log('AUTH: ', auth)}
+      {/* {console.log('AUTH: ', auth)} */}
       <NavLink className="nav__link" activeClassName="nav__link nav__link--active" to="/">
         Search
       </NavLink>

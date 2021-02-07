@@ -7,8 +7,8 @@ import { savingSneakers } from '../lib/api';
 
 const ShoeCard = ({ userId, sneaker }) => {
   // Render star icons based on rating
-  const star = () => <AiFillStar className="gold" />;
-  const rating = (num) => [...Array(num)].map(star);
+  // const star = () => <AiFillStar className="gold" />;
+  // const rating = (num) => [...Array(num)].map(star);
 
   if (!sneaker) {
     return <div>Loading</div>;
@@ -19,7 +19,7 @@ const ShoeCard = ({ userId, sneaker }) => {
   };
 
   return (
-    <div key={sneaker._id} className="shoe__content">
+    <div className="shoe__content">
       <img className="shoe__img mb-2" src={sneaker.media.thumbUrl} alt="shoe" />
       <div className="bg-grey">
         <p className="shoe__title mb-1">
@@ -29,7 +29,7 @@ const ShoeCard = ({ userId, sneaker }) => {
           Price: &nbsp;<span>${sneaker.retailPrice}</span>
         </p>
         <p className="shoe__sellar">
-          Seller: {sneaker.sellerName}&nbsp;{rating(4)}
+          Seller: {sneaker.sellerName}&nbsp;
         </p>
         {/* <p className="shoe__views mb-1">Views: {sneaker.viewedBy.length || '0'}</p> */}
         <p className="shoe__date">Date Listed: {moment(sneaker.updatedAt).format('MM/DD/YYYY')}</p>
