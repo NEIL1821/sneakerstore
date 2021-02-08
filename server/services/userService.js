@@ -1,5 +1,4 @@
 const { userMethods } = require('../database/userDB');
-const sneaker = require('../models/sneaker');
 class user {
   constructor() {
     this.db = new userMethods();
