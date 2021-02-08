@@ -1,14 +1,11 @@
 import React, { useState } from 'react';
 import Modal from 'react-modal';
-import { useAuth } from '../../context/AuthContext';
 import SignUpForm from '../SignUpForm';
 import SignInForm from '../SignInForm';
 Modal.setAppElement('#root');
 
 const SignInModal = ({ toggleModal, modalIsOpen }) => {
   const [signUpForm, setSignUpForm] = useState(false);
-
-  const { auth } = useAuth();
   
 
   // State will be

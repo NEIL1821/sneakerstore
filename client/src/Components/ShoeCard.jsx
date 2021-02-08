@@ -1,6 +1,5 @@
 import React from 'react';
 import moment from 'moment';
-import { AiFillStar } from 'react-icons/ai';
 import { FaRegHeart } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { savingSneakers } from '../lib/api';

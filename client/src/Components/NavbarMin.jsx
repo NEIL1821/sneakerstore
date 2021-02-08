@@ -1,10 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { useAuth } from '../context/AuthContext';
 
 // Navbar min doesn't contain the logo.
 const NavbarMin = () => {
-  const { auth } = useAuth();
   return (
     <nav className="nav">
       {/* {console.log('AUTH: ', auth)} */}
